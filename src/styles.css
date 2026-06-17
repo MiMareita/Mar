@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  background: black;
+}
+
+/* INTRO */
+.intro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  background: black;
+}
+
+/* ESCENA */
+.scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* MAR */
+.ocean {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(#1a2a3a, #0f2027);
+  animation: drift 20s linear infinite;
+}
+
+@keyframes drift {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* BARCO */
+.boat {
+  position: absolute;
+  bottom: 40%;
+  font-size: 40px;
+}
+
+/* TEXTO */
+.floating-text {
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+/* PARTICULAS */
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  animation: float 10s infinite;
+}
+
+@keyframes float {
+  from { transform: translateY(100vh); }
+  to { transform: translateY(-10vh); }
+}
+
+/* FINAL */
+.final {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: black;
+  font-size: 24px;
+}
