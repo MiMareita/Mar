@@ -1,5 +1,5 @@
 {
-  "name": "frances-limon-deriva",
+  "name": "mar",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && echo mar.github.io > dist/CNAME"
   },
   "dependencies": {
     "framer-motion": "^12.40.0",
     "react": "^19.2.6",
+    "react-confetti": "^6.4.0",
     "react-dom": "^19.2.6"
   },
   "devDependencies": {

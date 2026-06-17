@@ -1,0 +1,120 @@
+.intro {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FFB6E1 0%, #DDA0DD 25%, #e7d1de 50%, #DDA0DD 75%, #FFB6E1 100%) !important;
+  background-size: 400% 400%;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.intro-content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  max-width: 500px;
+  width: 100%;
+}
+
+.intro-title-container {
+  margin-bottom: 30px;
+}
+
+.intro-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  background: linear-gradient(135deg, #ec5bcd, #cc4fb1, #cc4fb1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 2px 10px rgba(252, 252, 252, 0.3);
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .intro-title {
+    font-size: 36px;
+  }
+}
+
+.intro-subtitle-container {
+  margin-bottom: 40px;
+}
+
+.intro-subtitle {
+  font-size: 22px;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 500;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .intro-subtitle {
+    font-size: 18px;
+  }
+}
+
+.intro-decor-container {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-decor-dot {
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.intro-click-hint {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-click-button {
+  padding: 18px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF1493;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 20, 147, 0.4);
+  white-space: nowrap;
+}
+
+.intro-click-button:hover {
+  background-color: #FF69B4;
+  transform: scale(1.05);
+}
+
+.intro-click-button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .intro-click-button {
+    padding: 14px 40px;
+    font-size: 16px;
+  }
+}
