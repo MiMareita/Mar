@@ -65,11 +65,20 @@ export default function FinalScene() {
     {<Confetti recycle={true} numberOfPieces={200} />}
 
       <motion.h1 style={styles.title} variants={itemVariants}>
-        ¡Feliz Cumpleaños!
+        Dos Meses
+      </motion.h1>
+      <motion.h1 style={styles.title} variants={itemVariants}>
+        a tu lado ❤
       </motion.h1>
 
       <motion.h2 style={styles.name} variants={itemVariants}>
-        Mi Amor, Mar
+          Te amo con todo mi corazón, mi amor. 
+          Eres mi alegría diaria y mi inspiración constante. 
+          Gracias por ser tú, por tu amor incondicional y por hacer que cada día a tu lado sea increible. 
+          Te amo más de lo que las palabras pueden expresar, y estoy emocionado por todos los momentos increíbles que aún nos esperan juntos.
+          Aunque la distancia es larga,
+          mi amor por ti es aún más fuerte.
+          Te amo, Mar.
       </motion.h2>
 
       {/* TIMER */}
@@ -179,7 +188,7 @@ title: {
 },
 
   name: {
-    fontSize: "clamp(28px, 7vw, 44px)",
+    fontSize: "clamp(14px, 3vw, 20px)",
     marginBottom: "20px",
     color: "#FFFFFF",
     fontWeight: "900",
