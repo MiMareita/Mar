@@ -160,7 +160,7 @@ export default function MainScene({ onFinish }) {
       )}
 
       {/* Play button if audio not started */}
-      {progress === 0 && !isPlaying && (
+      {/* {progress === 0 && !isPlaying && (
         <button
           onClick={handleAudioPlay}
           style={{
@@ -182,13 +182,13 @@ export default function MainScene({ onFinish }) {
         >
           Reproducir Historia
         </button>
-      )}
+      )} */}
 
       {/* Progress bar */}
       <div
         style={{
           position: "absolute",
-          bottom: "10px",
+          bottom: "15px",
           left: "50%",
           transform: "translateX(-50%)",
           width: "90%",

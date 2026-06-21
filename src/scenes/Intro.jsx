@@ -96,7 +96,10 @@ export default function Intro({ onStart }) {
             variants={pulseVariants}
             animate="animate"
           >
-            Haz click para comenzar
+            Me la paso pensando en tí, las 24 horas del día siempre. <br />
+            Te extraño bastante y no puedo esperar para volver a verte.<br />
+            Poder abrazarte y besarte.<br />
+            Pero por mientras te dejo esta sorpresa que hice con mucho amor para ti.
           </motion.p>
         </motion.div>
 
@@ -120,7 +123,10 @@ export default function Intro({ onStart }) {
             Comenzar
           </motion.button>
         </motion.div>
+
+
       </motion.div>
+      
     </div>
   );
 }

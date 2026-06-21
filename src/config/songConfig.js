@@ -14,31 +14,37 @@ export const SONG_CONFIG = {
     {
       time: 0.5,
       text: "En un barco de papel",
-      x: "15%",
-      y: "15%",
+      x: "10%",
+      y: "10%",
     },
      {
       time: 4,
       text: "yo volveré",
-      x: "40%",
+      x: "20%",
       y: "20%",
     },
     {
       time: 8,
       text: "Por ti mi amor",
-      x: "45%",
+      x: "30%",
       y: "30%",
     },
     {
       time: 11,
-      text: "Francés limón",
+      text: "Francés",
+      x: "40%",
+      y: "40%",
+    },
+    {
+      time: 13,
+      text: "limón",
       x: "50%",
       y: "50%",
     },
     {
       time: 15,
       text: "Las luces de la ciudad ",
-      x: "35%",
+      x: "28%",
       y: "60%",
     },
     {
