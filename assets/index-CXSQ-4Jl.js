@@ -104,4 +104,280 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
               .psl-bottombar-center { gap: 12px; }
               .psl-countdown-number { font-size: 22px !important; }
             }
-          `}),(0,$.jsxs)(`div`,{className:`psl-page`,children:[(0,$.jsx)(`div`,{className:`psl-topbar`,style:{background:c?`rgba(18,18,18,0.96)`:`transparent`,borderBottom:c?`1px solid #232323`:`1px solid transparent`},children:(0,$.jsxs)(`div`,{style:{display:`flex`,alignItems:`center`,gap:12,opacity:+!!c,transform:c?`translateY(0)`:`translateY(6px)`,transition:`opacity 200ms ease, transform 200ms ease`},children:[(0,$.jsx)(`button`,{className:`psl-play-btn`,onClick:()=>t(e=>!e),style:{width:36,height:36,borderRadius:`50%`,background:mm,border:`none`,display:`flex`,alignItems:`center`,justifyContent:`center`,cursor:`pointer`},"aria-label":e?`Pausar`:`Reproducir`,children:e?(0,$.jsx)(tm,{size:16,color:`#000000`,fill:`#000000`}):(0,$.jsx)(nm,{size:16,color:`#000000`,fill:`#000000`,style:{marginLeft:2}})}),(0,$.jsx)(`span`,{style:{fontSize:16,fontWeight:800},children:fm.title})]})}),(0,$.jsxs)(`div`,{className:`psl-hero`,style:{background:`linear-gradient(160deg, #3A6B47 0%, #0B140D 100%)`},children:[(0,$.jsx)(`div`,{className:`psl-hero-cover`,style:{backgroundImage:`url(${fm.cover})`},children:(0,$.jsx)(gm,{active:e,size:40,color:`rgba(255,255,255,0.85)`})}),(0,$.jsxs)(`div`,{className:`psl-hero-info`,children:[(0,$.jsx)(`span`,{style:{fontSize:13,fontWeight:700,letterSpacing:.5},children:`PLAYLIST`}),(0,$.jsx)(`h1`,{className:`psl-hero-title`,children:fm.title}),(0,$.jsx)(`p`,{style:{margin:0,fontSize:14,color:`#CFCFCF`,maxWidth:520},children:fm.description}),(0,$.jsxs)(`div`,{className:`psl-hero-meta`,children:[(0,$.jsx)(`span`,{style:{fontWeight:700,color:`#FFFFFF`},children:fm.owner}),(0,$.jsx)(`span`,{children:`•`}),(0,$.jsxs)(`span`,{children:[fm.followers.toLocaleString(`es-ES`),` seguidores`]}),(0,$.jsx)(`span`,{children:`•`}),(0,$.jsxs)(`span`,{children:[pm.length,` canciones,`]}),(0,$.jsxs)(`span`,{children:[fm.duration,` aproximadamente`]})]})]})]}),(0,$.jsxs)(`div`,{className:`psl-controls`,style:{background:`linear-gradient(180deg, rgba(0,0,0,0.28) 0%, #121212 100%)`},children:[(0,$.jsx)(`button`,{className:`psl-play-btn`,onClick:()=>t(e=>!e),style:{width:56,height:56,borderRadius:`50%`,background:mm,border:`none`,display:`flex`,alignItems:`center`,justifyContent:`center`,cursor:`pointer`},"aria-label":e?`Pausar`:`Reproducir`,children:e?(0,$.jsx)(tm,{size:22,color:`#000000`,fill:`#000000`}):(0,$.jsx)(nm,{size:22,color:`#000000`,fill:`#000000`,style:{marginLeft:3}})}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,onClick:()=>a(e=>!e),style:{background:`none`,border:`none`,cursor:`pointer`},"aria-label":`Guardar en tu biblioteca`,children:(0,$.jsx)(Qp,{size:26,color:i?mm:`#A7A7A7`,fill:i?mm:`none`})}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,style:{background:`none`,border:`none`,cursor:`pointer`},"aria-label":`Descargar`,children:(0,$.jsx)(Xp,{size:22,color:`#A7A7A7`})}),(0,$.jsx)(`div`,{style:{marginLeft:`auto`,position:`relative`},children:(0,$.jsxs)(`button`,{className:`psl-icon-btn`,onClick:()=>_(!0),style:{background:`none`,border:`1px solid #4d4d4d`,borderRadius:999,padding:`8px 16px`,display:`flex`,alignItems:`center`,gap:8,cursor:`pointer`,color:`#FFFFFF`,fontSize:13,fontWeight:700},children:[(0,$.jsx)(rm,{size:16}),(0,$.jsx)(`span`,{children:`Compartir`})]})}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,style:{background:`none`,border:`none`,cursor:`pointer`},"aria-label":`Mas opciones`,children:(0,$.jsx)(Zp,{size:22,color:`#A7A7A7`})})]}),(0,$.jsxs)(`div`,{className:`psl-track-header`,children:[(0,$.jsx)(`span`,{children:`#`}),(0,$.jsx)(`span`,{children:`TITULO`}),(0,$.jsx)(`span`,{className:`psl-track-album`,children:`ALBUM`}),(0,$.jsx)(`span`,{style:{display:`flex`,justifyContent:`flex-end`},children:(0,$.jsx)(Yp,{size:14})})]}),(0,$.jsx)(`div`,{className:`psl-track-list`,children:pm.map((t,r)=>(0,$.jsx)(Sm,{track:t,index:r,isPlaying:e,isCurrent:t.id===n,onSelect:v},t.id))}),(0,$.jsxs)(`div`,{className:`psl-bottombar`,children:[(0,$.jsxs)(`div`,{className:`psl-bottombar-track`,children:[(0,$.jsx)(`div`,{style:{width:48,height:48,borderRadius:4,backgroundImage:`url(${fm.cover})`,backgroundSize:`cover`,backgroundRepeat:`no-repeat`,backgroundPosition:`center`,flexShrink:0}}),(0,$.jsxs)(`div`,{style:{minWidth:0},children:[(0,$.jsx)(`div`,{style:{fontSize:13,fontWeight:500,whiteSpace:`nowrap`,overflow:`hidden`,textOverflow:`ellipsis`},children:y.title}),(0,$.jsx)(`div`,{style:{fontSize:12,color:`#A7A7A7`,whiteSpace:`nowrap`,overflow:`hidden`,textOverflow:`ellipsis`},children:y.artist})]}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,onClick:()=>a(e=>!e),style:{background:`none`,border:`none`,cursor:`pointer`,marginLeft:8,flexShrink:0},"aria-label":`Guardar cancion`,children:(0,$.jsx)(Qp,{size:16,color:i?mm:`#A7A7A7`,fill:i?mm:`none`})})]}),(0,$.jsxs)(`div`,{className:`psl-bottombar-center`,children:[(0,$.jsx)(im,{size:16,color:`#A7A7A7`}),(0,$.jsx)(am,{size:18,color:`#FFFFFF`,fill:`#FFFFFF`}),(0,$.jsx)(`button`,{className:`psl-play-btn`,onClick:()=>t(e=>!e),style:{width:32,height:32,borderRadius:`50%`,background:`#FFFFFF`,border:`none`,display:`flex`,alignItems:`center`,justifyContent:`center`,cursor:`pointer`},"aria-label":e?`Pausar`:`Reproducir`,children:e?(0,$.jsx)(tm,{size:15,color:`#000000`,fill:`#000000`}):(0,$.jsx)(nm,{size:15,color:`#000000`,fill:`#000000`,style:{marginLeft:2}})}),(0,$.jsx)(om,{size:18,color:`#FFFFFF`,fill:`#FFFFFF`}),(0,$.jsx)(Jp,{size:16,color:`#A7A7A7`,style:{transform:`rotate(180deg)`}})]}),(0,$.jsxs)(`div`,{className:`psl-bottombar-right`,children:[(0,$.jsx)(gm,{active:e,size:14}),(0,$.jsx)(sm,{size:16,color:`#A7A7A7`}),(0,$.jsx)(`div`,{className:`psl-volume-bar`,children:(0,$.jsx)(`div`,{style:{width:`70%`,height:`100%`,borderRadius:2,background:`#FFFFFF`}})})]})]})]}),(0,$.jsx)(xm,{open:g,onClose:()=>_(!1),url:`https://open.spotify.com/playlist/6FucpDZRqKSrQOU353gv4k?si=69af78185b024352`,playlist:fm}),(0,$.jsx)(`audio`,{ref:h,src:dm,onEnded:()=>t(!1)})]},`app`):(0,$.jsx)(bm,{onEnter:()=>d(!0),playlist:fm},`gate`):(0,$.jsx)(ym,{playlist:fm,target:hm,onUnlock:()=>p(!0)},`lock`)})}function wm(){return(0,$.jsxs)(qt,{children:[(0,$.jsx)(Gt,{path:`/`,element:(0,$.jsx)(Cm,{})}),(0,$.jsx)(Gt,{path:`/franceslimon`,element:(0,$.jsx)(Ip,{})}),(0,$.jsx)(Gt,{path:`/juego`,element:(0,$.jsx)(Lp,{})})]})}Ep.createRoot(document.getElementById(`root`)).render((0,$.jsx)(Fn,{basename:`/Mar`,children:(0,$.jsx)(wm,{})}));
+          `}),(0,$.jsxs)(`div`,{className:`psl-page`,children:[(0,$.jsx)(`div`,{className:`psl-topbar`,style:{background:c?`rgba(18,18,18,0.96)`:`transparent`,borderBottom:c?`1px solid #232323`:`1px solid transparent`},children:(0,$.jsxs)(`div`,{style:{display:`flex`,alignItems:`center`,gap:12,opacity:+!!c,transform:c?`translateY(0)`:`translateY(6px)`,transition:`opacity 200ms ease, transform 200ms ease`},children:[(0,$.jsx)(`button`,{className:`psl-play-btn`,onClick:()=>t(e=>!e),style:{width:36,height:36,borderRadius:`50%`,background:mm,border:`none`,display:`flex`,alignItems:`center`,justifyContent:`center`,cursor:`pointer`},"aria-label":e?`Pausar`:`Reproducir`,children:e?(0,$.jsx)(tm,{size:16,color:`#000000`,fill:`#000000`}):(0,$.jsx)(nm,{size:16,color:`#000000`,fill:`#000000`,style:{marginLeft:2}})}),(0,$.jsx)(`span`,{style:{fontSize:16,fontWeight:800},children:fm.title})]})}),(0,$.jsxs)(`div`,{className:`psl-hero`,style:{background:`linear-gradient(160deg, #3A6B47 0%, #0B140D 100%)`},children:[(0,$.jsx)(`div`,{className:`psl-hero-cover`,style:{backgroundImage:`url(${fm.cover})`},children:(0,$.jsx)(gm,{active:e,size:40,color:`rgba(255,255,255,0.85)`})}),(0,$.jsxs)(`div`,{className:`psl-hero-info`,children:[(0,$.jsx)(`span`,{style:{fontSize:13,fontWeight:700,letterSpacing:.5},children:`PLAYLIST`}),(0,$.jsx)(`h1`,{className:`psl-hero-title`,children:fm.title}),(0,$.jsx)(`p`,{style:{margin:0,fontSize:14,color:`#CFCFCF`,maxWidth:520},children:fm.description}),(0,$.jsxs)(`div`,{className:`psl-hero-meta`,children:[(0,$.jsx)(`span`,{style:{fontWeight:700,color:`#FFFFFF`},children:fm.owner}),(0,$.jsx)(`span`,{children:`•`}),(0,$.jsxs)(`span`,{children:[fm.followers.toLocaleString(`es-ES`),` seguidores`]}),(0,$.jsx)(`span`,{children:`•`}),(0,$.jsxs)(`span`,{children:[pm.length,` canciones,`]}),(0,$.jsxs)(`span`,{children:[fm.duration,` aproximadamente`]})]})]})]}),(0,$.jsxs)(`div`,{className:`psl-controls`,style:{background:`linear-gradient(180deg, rgba(0,0,0,0.28) 0%, #121212 100%)`},children:[(0,$.jsx)(`button`,{className:`psl-play-btn`,onClick:()=>t(e=>!e),style:{width:56,height:56,borderRadius:`50%`,background:mm,border:`none`,display:`flex`,alignItems:`center`,justifyContent:`center`,cursor:`pointer`},"aria-label":e?`Pausar`:`Reproducir`,children:e?(0,$.jsx)(tm,{size:22,color:`#000000`,fill:`#000000`}):(0,$.jsx)(nm,{size:22,color:`#000000`,fill:`#000000`,style:{marginLeft:3}})}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,onClick:()=>a(e=>!e),style:{background:`none`,border:`none`,cursor:`pointer`},"aria-label":`Guardar en tu biblioteca`,children:(0,$.jsx)(Qp,{size:26,color:i?mm:`#A7A7A7`,fill:i?mm:`none`})}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,style:{background:`none`,border:`none`,cursor:`pointer`},"aria-label":`Descargar`,children:(0,$.jsx)(Xp,{size:22,color:`#A7A7A7`})}),(0,$.jsx)(`div`,{style:{marginLeft:`auto`,position:`relative`},children:(0,$.jsxs)(`button`,{className:`psl-icon-btn`,onClick:()=>_(!0),style:{background:`none`,border:`1px solid #4d4d4d`,borderRadius:999,padding:`8px 16px`,display:`flex`,alignItems:`center`,gap:8,cursor:`pointer`,color:`#FFFFFF`,fontSize:13,fontWeight:700},children:[(0,$.jsx)(rm,{size:16}),(0,$.jsx)(`span`,{children:`Compartir`})]})}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,style:{background:`none`,border:`none`,cursor:`pointer`},"aria-label":`Mas opciones`,children:(0,$.jsx)(Zp,{size:22,color:`#A7A7A7`})})]}),(0,$.jsxs)(`div`,{className:`psl-track-header`,children:[(0,$.jsx)(`span`,{children:`#`}),(0,$.jsx)(`span`,{children:`TITULO`}),(0,$.jsx)(`span`,{className:`psl-track-album`,children:`ALBUM`}),(0,$.jsx)(`span`,{style:{display:`flex`,justifyContent:`flex-end`},children:(0,$.jsx)(Yp,{size:14})})]}),(0,$.jsx)(`div`,{className:`psl-track-list`,children:pm.map((t,r)=>(0,$.jsx)(Sm,{track:t,index:r,isPlaying:e,isCurrent:t.id===n,onSelect:v},t.id))}),(0,$.jsxs)(`div`,{className:`psl-bottombar`,children:[(0,$.jsxs)(`div`,{className:`psl-bottombar-track`,children:[(0,$.jsx)(`div`,{style:{width:48,height:48,borderRadius:4,backgroundImage:`url(${fm.cover})`,backgroundSize:`cover`,backgroundRepeat:`no-repeat`,backgroundPosition:`center`,flexShrink:0}}),(0,$.jsxs)(`div`,{style:{minWidth:0},children:[(0,$.jsx)(`div`,{style:{fontSize:13,fontWeight:500,whiteSpace:`nowrap`,overflow:`hidden`,textOverflow:`ellipsis`},children:y.title}),(0,$.jsx)(`div`,{style:{fontSize:12,color:`#A7A7A7`,whiteSpace:`nowrap`,overflow:`hidden`,textOverflow:`ellipsis`},children:y.artist})]}),(0,$.jsx)(`button`,{className:`psl-icon-btn`,onClick:()=>a(e=>!e),style:{background:`none`,border:`none`,cursor:`pointer`,marginLeft:8,flexShrink:0},"aria-label":`Guardar cancion`,children:(0,$.jsx)(Qp,{size:16,color:i?mm:`#A7A7A7`,fill:i?mm:`none`})})]}),(0,$.jsxs)(`div`,{className:`psl-bottombar-center`,children:[(0,$.jsx)(im,{size:16,color:`#A7A7A7`}),(0,$.jsx)(am,{size:18,color:`#FFFFFF`,fill:`#FFFFFF`}),(0,$.jsx)(`button`,{className:`psl-play-btn`,onClick:()=>t(e=>!e),style:{width:32,height:32,borderRadius:`50%`,background:`#FFFFFF`,border:`none`,display:`flex`,alignItems:`center`,justifyContent:`center`,cursor:`pointer`},"aria-label":e?`Pausar`:`Reproducir`,children:e?(0,$.jsx)(tm,{size:15,color:`#000000`,fill:`#000000`}):(0,$.jsx)(nm,{size:15,color:`#000000`,fill:`#000000`,style:{marginLeft:2}})}),(0,$.jsx)(om,{size:18,color:`#FFFFFF`,fill:`#FFFFFF`}),(0,$.jsx)(Jp,{size:16,color:`#A7A7A7`,style:{transform:`rotate(180deg)`}})]}),(0,$.jsxs)(`div`,{className:`psl-bottombar-right`,children:[(0,$.jsx)(gm,{active:e,size:14}),(0,$.jsx)(sm,{size:16,color:`#A7A7A7`}),(0,$.jsx)(`div`,{className:`psl-volume-bar`,children:(0,$.jsx)(`div`,{style:{width:`70%`,height:`100%`,borderRadius:2,background:`#FFFFFF`}})})]})]})]}),(0,$.jsx)(xm,{open:g,onClose:()=>_(!1),url:`https://open.spotify.com/playlist/6FucpDZRqKSrQOU353gv4k?si=69af78185b024352`,playlist:fm}),(0,$.jsx)(`audio`,{ref:h,src:dm,onEnded:()=>t(!1)})]},`app`):(0,$.jsx)(bm,{onEnter:()=>d(!0),playlist:fm},`gate`):(0,$.jsx)(ym,{playlist:fm,target:hm,onUnlock:()=>p(!0)},`lock`)})}function wm(e,t=500,n=380){return`https://picsum.photos/seed/${e}/${t}/${n}`}wm(`redvelvet-garrita`),wm(`fresas-crema-pastel`),wm(`tresleches-rosa`),wm(`cupcake-vainilla-rosa`),wm(`cupcake-redvelvet-mini`),wm(`cupcake-limon-merengue`),wm(`copa-fresas-crema`),wm(`tiramisu-clasico`),wm(`mousse-chocolate-belga`),wm(`galletas-decoradas-garrita`),wm(`galletas-mantequilla`),wm(`roles-canela-glaseados`),wm(`pan-de-elote`),wm(`pastel-calabaza-especiado`),wm(`cupcake-menta-navideno`);var Tm={axel:`#4A3423`,mar:`#6B1F2A`};function Em(e,t){if(!e||!t)return;let n=window.devicePixelRatio||1,r=t.getBoundingClientRect(),i=Math.max(1,Math.round(r.width*n)),a=Math.max(1,Math.round(r.height*n));e.width!==i&&(e.width=i),e.height!==a&&(e.height=a)}function Dm(e,t,n,r){if(!e)return;let i=e.getContext(`2d`);i.clearRect(0,0,e.width,e.height),i.strokeStyle=r,i.fillStyle=r,i.lineWidth=2.6*(window.devicePixelRatio||1),i.lineCap=`round`,i.lineJoin=`round`,(n?[...t,n]:t).forEach(t=>{if(!(!t||t.length===0)){if(t.length===1){i.beginPath(),i.arc(t[0].x*e.width,t[0].y*e.height,i.lineWidth/2,0,Math.PI*2),i.fill();return}i.beginPath(),t.forEach((t,n)=>{let r=t.x*e.width,a=t.y*e.height;n===0?i.moveTo(r,a):i.lineTo(r,a)}),i.stroke()}})}function Om({label:e,roleKey:t,signed:n,canvasRef:r,containerRef:i,handlers:a}){return(0,$.jsxs)(`div`,{className:`sig-block`,children:[(0,$.jsxs)(`div`,{className:`sig-pad`,ref:i,style:{"--ink":Tm[t]},children:[(0,$.jsx)(`canvas`,{ref:r,className:`sig-canvas`,onPointerDown:a.onDown,onPointerMove:a.onMove,onPointerUp:a.onUp,onPointerCancel:a.onUp,style:{touchAction:`none`}}),!n&&(0,$.jsx)(`div`,{className:`sig-ghost`,children:`Firma aquí`})]}),(0,$.jsxs)(`div`,{className:`sig-caption`,children:[(0,$.jsx)(`span`,{className:`sig-name`,children:e}),(0,$.jsx)(`span`,{className:`sig-status`+(n?` sig-status--done`:``),children:n?`Firmado`:`Sin firmar`})]})]})}function km(){let[e,t]=(0,w.useState)(!0),[n,r]=(0,w.useState)(!1),[i,a]=(0,w.useState)(!1),[o,s]=(0,w.useState)(!1),[c,l]=(0,w.useState)(null),[u,d]=(0,w.useState)(null),[f,p]=(0,w.useState)(null),m=(0,w.useRef)({axel:{strokes:[],current:null},mar:{strokes:[],current:null}}),h=(0,w.useRef)({axel:!1,mar:!1}),g=(0,w.useRef)(null),_=(0,w.useRef)(null),v=(0,w.useRef)(null),y=(0,w.useRef)(null),b=(0,w.useCallback)(e=>{let t=e===`axel`?g.current:_.current,n=m.current[e];Dm(t,n.strokes,n.current,Tm[e])},[]),x=(0,w.useCallback)(()=>{Em(g.current,v.current),Em(_.current,y.current),b(`axel`),b(`mar`)},[b]),S=(0,w.useCallback)(async e=>{let t=m.current[e],n=t.current?[...t.strokes,t.current]:t.strokes;try{await window.storage.set(`sig-${e}`,JSON.stringify(n),!0),l(null),d(Date.now())}catch(e){console.error(`No se pudo guardar la firma:`,e),l(`No se pudo guardar. Revisa tu conexión.`)}},[]);(0,w.useEffect)(()=>{if(typeof window>`u`||!window.storage){l(`El almacenamiento en tiempo real no está disponible en esta vista.`),t(!1);return}(async()=>{for(let e of[`axel`,`mar`])try{let t=await window.storage.get(`sig-${e}`,!0),n=t&&t.value?JSON.parse(t.value):[];m.current[e].strokes=n}catch{m.current[e].strokes=[]}x(),r(m.current.axel.strokes.length>0),a(m.current.mar.strokes.length>0),d(Date.now()),t(!1)})()},[x]),(0,w.useEffect)(()=>{x();let e=()=>x();return window.addEventListener(`resize`,e),()=>window.removeEventListener(`resize`,e)},[x]),(0,w.useEffect)(()=>{let e=setInterval(async()=>{for(let e of[`axel`,`mar`])if(!h.current[e])try{let t=await window.storage.get(`sig-${e}`,!0),n=t&&t.value?JSON.parse(t.value):[];JSON.stringify(m.current[e].strokes)!==JSON.stringify(n)&&(m.current[e].strokes=n,m.current[e].current=null,b(e),e===`axel`?r(n.length>0):a(n.length>0))}catch{}},500);return()=>clearInterval(e)},[b]),(0,w.useEffect)(()=>{let e=setInterval(()=>{h.current.axel&&S(`axel`),h.current.mar&&S(`mar`)},150);return()=>clearInterval(e)},[S]);let C=(e,t)=>{let n=e.getBoundingClientRect();return{x:(t.clientX-n.left)/n.width,y:(t.clientY-n.top)/n.height}},T=e=>({onDown:t=>{let n=e===`axel`?g.current:_.current;n.setPointerCapture(t.pointerId);let r=C(n,t);m.current[e].current=[r],h.current[e]=!0,b(e)},onMove:t=>{if(!h.current[e])return;let n=C(e===`axel`?g.current:_.current,t),r=m.current[e].current;r&&r.push(n),b(e)},onUp:()=>{if(!h.current[e])return;h.current[e]=!1;let t=m.current[e];t.current&&t.current.length&&(t.strokes=[...t.strokes,t.current],t.current=null),b(e),S(e),e===`axel`?r(t.strokes.length>0):a(t.strokes.length>0)}}),ee=T(`axel`),te=T(`mar`);return(0,$.jsxs)(`div`,{className:`letter-app`,children:[(0,$.jsx)(`style`,{children:`
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Special+Elite&display=swap');
+
+        .letter-app {
+          --paper: #EEE2C6;
+          --paper-dark: #E4D3AC;
+          --paper-shadow: #C6AE7C;
+          --ink: #4A3423;
+          --ink-soft: #8A755A;
+          --wine: #6B1F2A;
+          --backdrop-1: #2A1D14;
+          --backdrop-2: #140D08;
+          font-family: 'EB Garamond', serif;
+          color: var(--ink);
+          box-sizing: border-box;
+          height: 100vh;
+          height: 100dvh;
+          overflow-y: auto;
+          -webkit-overflow-scrolling: touch;
+          width: 100%;
+          padding: 2.75rem 1.1rem 4rem;
+          background: radial-gradient(120% 90% at 50% 0%, var(--backdrop-1) 0%, var(--backdrop-2) 100%);
+          display: flex;
+          justify-content: center;
+        }
+        .letter-app *, .letter-app *::before, .letter-app *::after { box-sizing: border-box; }
+
+        .sheet {
+          width: 100%;
+          max-width: 640px;
+          animation: rise 900ms ease-out both;
+        }
+        @keyframes rise {
+          from { opacity: 0; transform: translateY(14px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @media (prefers-reduced-motion: reduce) { .sheet { animation: none; } }
+
+        .card, .contract-card {
+          position: relative;
+          background:
+            radial-gradient(180px 140px at 12% 8%, rgba(107,31,42,0.05), transparent 70%),
+            radial-gradient(220px 160px at 92% 88%, rgba(74,52,35,0.06), transparent 70%),
+            var(--paper);
+          border: 6px double var(--paper-shadow);
+          box-shadow: 0 1px 0 rgba(255,255,255,0.25) inset, 0 25px 55px -20px rgba(0,0,0,0.65);
+          padding: 3rem 2.75rem;
+          overflow: hidden;
+        }
+        .card::after, .contract-card::after {
+          content: '';
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          background: radial-gradient(120% 100% at 50% 0%, transparent 55%, rgba(42,29,18,0.16) 100%);
+        }
+        @media (max-width: 560px) {
+          .card, .contract-card { padding: 2.1rem 1.3rem; }
+        }
+
+        .postmark {
+          width: 74px;
+          height: 74px;
+          border: 2px solid var(--ink-soft);
+          border-radius: 50%;
+          transform: rotate(-9deg);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 1.5rem;
+          position: relative;
+        }
+        .postmark::before {
+          content: '';
+          position: absolute;
+          inset: 5px;
+          border: 1px dashed var(--ink-soft);
+          border-radius: 50%;
+        }
+        .postmark-text {
+          font-family: 'Special Elite', monospace;
+          font-size: 0.58rem;
+          letter-spacing: 0.06em;
+          text-align: center;
+          line-height: 1.35;
+          color: var(--ink-soft);
+        }
+
+        .title {
+          font-family: 'Great Vibes', cursive;
+          font-weight: 400;
+          font-size: 3.4rem;
+          line-height: 1;
+          margin: 0 0 1.7rem;
+          color: var(--wine);
+        }
+
+        .letter-text p {
+          font-family: 'EB Garamond', serif;
+          font-size: 1.32rem;
+          line-height: 1.8;
+          margin: 0 0 1.3rem;
+          color: var(--ink);
+        }
+
+        .closing {
+          margin-top: 1.8rem;
+          font-family: 'EB Garamond', serif;
+          font-style: italic;
+          font-size: 1.3rem;
+          line-height: 1.6;
+        }
+        .signoff-row {
+          margin-top: 0.9rem;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 1rem;
+        }
+        .signoff {
+          font-family: 'Great Vibes', cursive;
+          font-size: 2.1rem;
+          color: var(--wine);
+        }
+        .seal {
+          width: 52px;
+          height: 52px;
+          border-radius: 50%;
+          flex-shrink: 0;
+          background: radial-gradient(circle at 32% 28%, #8C2E3B, var(--wine) 60%, #4E1620 100%);
+          box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: 'EB Garamond', serif;
+          font-style: italic;
+          font-size: 0.85rem;
+          color: rgba(255,244,230,0.85);
+        }
+
+        .divider {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.9rem;
+          margin: 2.2rem 0;
+          color: var(--paper-shadow);
+          font-size: 1.3rem;
+        }
+        .divider::before, .divider::after {
+          content: '';
+          flex: 1;
+          height: 1px;
+          background: var(--paper-shadow);
+          max-width: 140px;
+        }
+
+        .contract-heading {
+          font-family: 'Great Vibes', cursive;
+          font-size: 2rem;
+          margin: 0 0 0.5rem;
+          color: var(--wine);
+        }
+        .contract-sub {
+          font-family: 'Special Elite', monospace;
+          font-size: 0.72rem;
+          letter-spacing: 0.02em;
+          color: var(--ink-soft);
+          line-height: 1.6;
+          margin: 0 0 1.5rem;
+        }
+
+        .live-pill {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          font-family: 'Special Elite', monospace;
+          font-size: 0.65rem;
+          letter-spacing: 0.03em;
+          color: var(--ink-soft);
+          margin-bottom: 1.8rem;
+        }
+        .live-dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: var(--wine);
+          animation: pulse 1.6s ease-in-out infinite;
+        }
+        @keyframes pulse {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.4; transform: scale(0.8); }
+        }
+
+        .sig-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1.6rem;
+        }
+
+        .sig-block { min-width: 0; }
+        .sig-pad {
+          position: relative;
+          height: 108px;
+          border-bottom: 1.5px solid var(--ink-soft);
+        }
+        .sig-canvas {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+        }
+        .sig-ghost {
+          position: absolute;
+          bottom: 8px;
+          left: 2px;
+          font-family: 'Great Vibes', cursive;
+          font-size: 1.15rem;
+          color: #C2AD84;
+          pointer-events: none;
+        }
+        .sig-caption {
+          display: flex;
+          justify-content: space-between;
+          align-items: baseline;
+          margin-top: 0.55rem;
+          flex-wrap: wrap;
+          gap: 0.3rem;
+        }
+        .sig-name {
+          font-family: 'Special Elite', monospace;
+          font-size: 0.72rem;
+          letter-spacing: 0.03em;
+          color: var(--ink);
+        }
+        .sig-status {
+          font-family: 'Special Elite', monospace;
+          font-size: 0.62rem;
+          color: var(--ink-soft);
+        }
+        .sig-status--done { color: var(--wine); }
+
+        .both-signed {
+          margin-top: 1.7rem;
+          font-family: 'Great Vibes', cursive;
+          font-size: 1.5rem;
+          color: var(--wine);
+          text-align: center;
+        }
+
+        .reset-row {
+          margin-top: 1.1rem;
+          font-family: 'Special Elite', monospace;
+          font-size: 0.62rem;
+          color: var(--ink-soft);
+        }
+        .reset-row button {
+          font-family: 'Special Elite', monospace;
+          background: none;
+          border: none;
+          color: var(--ink-soft);
+          text-decoration: underline;
+          cursor: pointer;
+          padding: 0;
+          font-size: 0.62rem;
+        }
+        .reset-confirm { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; }
+        .reset-confirm button.danger { color: var(--wine); }
+
+        .loading-note {
+          font-family: 'Special Elite', monospace;
+          font-size: 0.85rem;
+          color: #C2AD84;
+          text-align: center;
+          padding: 4rem 0;
+        }
+      `}),e?(0,$.jsx)(`div`,{className:`sheet`,children:(0,$.jsx)(`p`,{className:`loading-note`,children:`preparando la carta…`})}):(0,$.jsxs)(`div`,{className:`sheet`,children:[(0,$.jsxs)(`div`,{className:`card`,children:[(0,$.jsx)(`div`,{className:`postmark`,children:(0,$.jsxs)(`div`,{className:`postmark-text`,children:[`CORREO`,(0,$.jsx)(`br`,{}),`DE AMOR`,(0,$.jsx)(`br`,{}),`FEBRERO`]})}),(0,$.jsx)(`h1`,{className:`title`,children:`Mi dulce Mar.`}),(0,$.jsxs)(`div`,{className:`letter-text`,children:[(0,$.jsx)(`p`,{children:`Quiero escribir algo memorable, así que aquí está: mi recuerdo de la primera vez que te vi o como te gusta llamarlo nuestro bello click. Fue en los fríos días de febrero, cuando quedamos de vernos por primera vez en una tienda departamental, una primera cita diferente a lo conocido, creo que desde ahí sabría que nuestra relación sería especial.`}),(0,$.jsx)(`p`,{children:`Estabas parada enfrente, el cabello cubría tu frente, tu mochila rosa con un termo brillante de un color rosa claro. Tu mirada estaba perdida al teléfono que colgaba de tu mano en un brazalete blanco con rosa que rodeaba tu muñeca. Llevabas una blusa color rojo, un pantalón de mezclilla. Me acerqué a ti lentamente, nervioso y sudando. La primera palabra llego, un "Hola" salió de mi boca, fue cuando levantaste la mirada, esa mirada que hasta el día de hoy llevo guardada en el corazón. En tus ojos un detalle hermoso de puntitos en tus pestañas, tú me sonreíste, sentí como el corazón dio un gran salto con las ganas de que se me ocurriera un chiste. Recuerdo tu voz temblorosa, una voz tímida y bajita, como al sonreír tus ojitos se hacían chiquititos, recuerdo cada momento de ese día y como regrese a casa sonriendo.`}),(0,$.jsx)(`p`,{children:`No tenía ni idea de que te convertirías en la persona más importante de mi vida, a veces no puedo creer lo afortunado que soy de me eligieras, hemos pasado por muchas cosas juntos Mar Mesina. Estoy tan contento que estés ahora en Mazatlán, deberías hacer todas las cosas que quieres hacer, no quiero ser nunca el chico que te detiene, quiero ser el que esté a tu lado, no siempre será fácil pero quiero hacer lo que sea necesario para apoyarte, por que eso es lo qué haces cuando amas a alguien, además si vamos a estar juntos para siempre, más de tres años de universidad no es tanto tiempo, si estás de acuerdo por favor considera este nuestro nuevo contrato.`})]}),(0,$.jsx)(`p`,{className:`closing`,children:`Te amare Mar M. Mesina. Ahora y para siempre`}),(0,$.jsxs)(`div`,{className:`signoff-row`,children:[(0,$.jsx)(`div`,{className:`seal`,children:`A\xA0M`}),(0,$.jsx)(`p`,{className:`signoff`,children:`Axel`})]})]}),(0,$.jsx)(`div`,{className:`divider`,children:`❦`}),(0,$.jsxs)(`div`,{className:`contract-card`,children:[(0,$.jsx)(`h2`,{className:`contract-heading`,children:`Nuestro contrato`}),(0,$.jsx)(`p`,{className:`contract-sub`,children:`cada quien firma su línea — lo que se dibuje aquí se comparte al instante entre los dos dispositivos conectados a esta página.`}),(0,$.jsxs)(`div`,{className:`live-pill`,children:[(0,$.jsx)(`span`,{className:`live-dot`}),`sincronizando en tiempo real`]}),(0,$.jsxs)(`div`,{className:`sig-grid`,children:[(0,$.jsx)(Om,{label:`Axel`,roleKey:`axel`,signed:n,canvasRef:g,containerRef:v,handlers:ee}),(0,$.jsx)(Om,{label:`Mar M. Mesina`,roleKey:`mar`,signed:i,canvasRef:_,containerRef:y,handlers:te})]}),n&&i&&(0,$.jsx)(`p`,{className:`both-signed`,children:`Ambos han firmado. Trato hecho.`}),(0,$.jsx)(`div`,{className:`reset-row`,children:o?(0,$.jsxs)(`span`,{className:`reset-confirm`,children:[`¿Borrar ambas firmas?`,(0,$.jsx)(`button`,{className:`danger`,onClick:async()=>{m.current.axel={strokes:[],current:null},m.current.mar={strokes:[],current:null},b(`axel`),b(`mar`),r(!1),a(!1),s(!1);try{await window.storage.set(`sig-axel`,`[]`,!0),await window.storage.set(`sig-mar`,`[]`,!0)}catch(e){console.error(e)}},children:`Sí, borrar`}),(0,$.jsx)(`button`,{onClick:()=>s(!1),children:`Cancelar`})]}):(0,$.jsx)(`button`,{onClick:()=>s(!0),children:`Reiniciar firmas`})})]})]})]})}function Am(){return(0,$.jsxs)(qt,{children:[(0,$.jsx)(Gt,{path:`/`,element:(0,$.jsx)(Cm,{})}),(0,$.jsx)(Gt,{path:`/franceslimon`,element:(0,$.jsx)(Ip,{})}),(0,$.jsx)(Gt,{path:`/juego`,element:(0,$.jsx)(Lp,{})}),(0,$.jsx)(Gt,{path:`/contrato`,element:(0,$.jsx)(km,{})})]})}Ep.createRoot(document.getElementById(`root`)).render((0,$.jsx)(Fn,{basename:`/Mar`,children:(0,$.jsx)(Am,{})}));
